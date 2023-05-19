@@ -1,0 +1,215 @@
+body {
+  background-image: url("/images/main-bg.jpg");
+}
+
+/* Header */
+.header-container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/images/header-bg.jpg");
+  box-shadow: 2px 2px 6px 2px grey;
+  margin: 0 auto;
+}
+
+.nav-box {
+  width: 580px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-items {
+  width: 400px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 4px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.nav-item {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/images/wood-gb.jpg");
+  padding: 8px;
+  box-shadow: 2px 2px 6px 2px rgb(238, 226, 192);
+}
+
+.nav-item-text {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+  margin: 12px;
+}
+
+.nav-item-text:hover {
+  text-decoration: none;
+  color: #eeff00;
+  font-style: italic;
+}
+
+.contact-items {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.contact-item-text {
+  text-decoration: none;
+  color: #09ff00;
+  font-style: italic;
+}
+
+/* main content */
+
+.hero-section-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/images/hero-bg.jpeg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px 2px grey;
+  width: auto;
+  height: 400px;
+  margin: 4px 0 4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-pic {
+  margin-bottom: 12px;
+}
+
+/* About beer Section */
+
+.abt-beer-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 44px 4px 44px 4px;
+  padding: 12px;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-width: 1200px;
+}
+
+.beer-styles-text {
+  text-align: center;
+}
+
+.abv-text-box {
+  align-self: self-start;
+  max-width: 600px;
+}
+
+.ibu-text-box {
+  max-width: 600px;
+  align-self: self-end;
+}
+
+/* Beer types Section */
+
+.beer-type-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.beer-type-titul {
+  margin: 2px;
+  font-weight: bold;
+}
+
+.lager-box {
+  background-image: url("/images/close-up-beer-with-foam-glass.png");
+  width: 500px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px 2px grey;
+  text-align: center;
+}
+
+.ale-box {
+  background-image: url("/images/close-up-beer-with-foam-glass.png");
+  width: 500px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px 2px grey;
+  text-align: center;
+}
+
+.beer-name {
+  margin: 2px 0 2px;
+}
+
+.beer-type-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.beer-cards-box {
+  padding: 0;
+  margin: 0 0 12px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.beer-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  margin: 4px 0 12px 0;
+  text-align: center;
+  width: 200px;
+  height: 240px;
+  background-color: #ffffff;
+  border-radius: 10px 30px 10px 40px;
+  box-shadow: 2px 2px 6px 2px grey;
+}
+
+/* Footer */
+.footer-container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/images/footer-bg.jpg");
+  box-shadow: 2px 2px 6px 2px grey;
+  margin: 0 auto;
+}
