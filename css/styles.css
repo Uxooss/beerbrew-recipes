@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/main-bg.jpg");
+  background-image: url("./bg-pics/main-bg.jpg");
 }
 
 /* Header */
@@ -7,7 +7,7 @@ body {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  background-image: url("/images/header-bg.jpg");
+  background-image: url("./bg-pics/header-bg.jpg");
   box-shadow: 2px 2px 6px 2px grey;
   margin: 0 auto;
 }
@@ -32,7 +32,7 @@ body {
 .nav-item {
   border: 1px solid black;
   border-radius: 6px;
-  background-image: url("/images/wood-gb.jpg");
+  background-image: url("./bg-pics/wood-gb.jpg");
   padding: 8px;
   box-shadow: 2px 2px 6px 2px rgb(238, 226, 192);
 }
@@ -75,7 +75,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url("/images/hero-bg.jpeg");
+  background-image: url("./bg-pics/hero-bg.jpeg");
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
@@ -148,7 +148,7 @@ h1 {
 }
 
 .lager-box {
-  background-image: url("/images/close-up-beer-with-foam-glass.png");
+  background-image: url("./bg-pics/close-up-beer-with-foam-glass.png");
   width: 500px;
   height: auto;
   border-radius: 6px;
@@ -157,7 +157,7 @@ h1 {
 }
 
 .ale-box {
-  background-image: url("/images/close-up-beer-with-foam-glass.png");
+  background-image: url("./bg-pics/close-up-beer-with-foam-glass.png");
   width: 500px;
   height: auto;
   border-radius: 6px;
@@ -209,7 +209,7 @@ h1 {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  background-image: url("/images/footer-bg.jpg");
+  background-image: url("./bg-pics/footer-bg.jpg");
   box-shadow: 2px 2px 6px 2px grey;
   margin: 0 auto;
 }
